@@ -1,33 +1,7 @@
-# JExam
-
-## Department
-_For Example: Computing_
-__Reason for use__
-* A chairperson is tied to a department
-* An administrator is tied to a department
-* Results are fetched by the administrator of that department 
-* Passmark may be set in a school
-* assessment may be set at the school level. 
-
-
-## School
-__Reason for use__
-* We may require to have a system administrator at the school level.
-* We may need to access results at the school level.
-* A single administrator may function in the whole school.
-* Passmark may be set in a school
-* assessment may be set at the school level. 
-
-
-## Academic Year
-__Reasons for use__
-* Results will be fetched for a given academic year. 
-* We need to close and open years as they end.
-* We may need to get overal student results after their course.
 
 
 ## Staff
-___Obvious Reasons: They are the users of the system___
+___They are the users of the system___
 They Include:
 * __System Admin__
     * Manages users.
@@ -51,6 +25,9 @@ They Include:
     * Maps lecturer to units for a given semester.
     * Does lecturer evaluation based on their response time
     * Broadcasts message to the department
+    * Can grant rights for lecturers to edit marks.
+    * Can close exam marks entry.
+    * Can reopen exams marks entry
 * __Exams Officer__
     * Chairperson roles, except for exams modification
 
@@ -66,19 +43,4 @@ They Include:
         * Can save marks periodically.
         * Submits marks
         * Cannot then edit
-
-
-
-## Semester
-
-## Reset
-
-## Classes
-
-## Intake
-
-## Unit
-
-## assessment
-
-## student
+        * Can view marks they stored
